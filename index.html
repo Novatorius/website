@@ -10,8 +10,8 @@
 			margin: 0;
 			padding: 20px;
 			color: #002563;
-			font-size: 16px;
-			background: #2469dc;
+			font-size: 18px;
+			background: #002563;
 		}
 
 		.container {
@@ -25,6 +25,7 @@
 
 		h1, h2, h3, h4, h5, h6 {
 			font-weight: bold;
+			color: #002563;
 		}
 
 		h1, h2 {
@@ -46,15 +47,12 @@
 			display: grid;
 			margin: auto;
 			gap: 20px;
-		}
-
-		p {
-			line-height: 1.6;
+			min-height: 100%;
 		}
 
 		blockquote {
 			line-height: 1.2;
-			font-size: 1.2rem;
+			font-size: 1.4rem;
 			font-style: italic;
 			margin: 0;
 			padding: 0;
@@ -74,7 +72,7 @@
 			width: 100px;
 		}
 
-		.brand{
+		.brand {
 			display: block;
 			width: 200px;
 			text-align: center;
@@ -84,6 +82,13 @@
 			display: flex;
 			justify-content: space-between;
 			gap: 20px;
+		}
+
+		small {
+			text-align: center;
+			display: block;
+			width: 100%;
+			margin-bottom: 10px;
 		}
 
 		@media screen and (max-width: 800px) {
@@ -115,8 +120,12 @@
 		</blockquote>
 		<h2>Brands</h2>
 		<div class="heading-container">
-			<a class="brand" href="https://www.sirenaffiliates.com"><img src="logo-default.svg" alt="Siren Affiliates Logo"> Siren Affiliates</a>
+			<a class="brand" href="https://www.sirenaffiliates.com"><img src="logo-default.svg" alt="Siren Affiliates Logo">
+				Siren Affiliates</a>
 		</div>
+		<small>Contact: <a href="mailto:hello@novatori.us">hello@novatori.us</a></small>
+		<small>Novatorius is owned and operated by <a href="https://www.alexstandiford.com">Alex Standiford</a>. Love What
+			You Do.</small>
 	</div>
 
 </main>
